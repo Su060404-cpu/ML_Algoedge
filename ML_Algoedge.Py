@@ -383,12 +383,7 @@ class MLStrategy(BaseStrategy):
 # Instantiate the strategy
 strategy = MLStrategy(
     strategy_per_user_id=256,
-    instruments=[],
     
 )
 
 strategy.start()
-while True:
-    print("here")
-
-    time.sleep(30)
